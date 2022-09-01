@@ -1,0 +1,8 @@
+[root_Directory]
+dir = E:\Python\temp
+[username]
+name = momin
+[Num_of_db_connected]
+num = 1128
+[summmary_unit]
+units = [3.7,8.9,0.3]

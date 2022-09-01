@@ -1,0 +1,594 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Without Threading >> Starting at : 2022-08-31 09:05:43.419056
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Temperature
+Operation Result: 17.6875
+         144 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+       16    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        1    0.000    0.000    0.000    0.000 E:\Python\threadingExercise.py:50(avg_Temperature)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+       11    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       16    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+       11    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Lapse
+Operation Result: 525.0
+         50 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:309(_strptime)
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+        2    0.000    0.000    0.000    0.000 {built-in method strptime}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:565(_strptime_datetime)
+        1    0.000    0.000    0.000    0.000 E:\Python\threadingExercise.py:53(avg_Lapse)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:386(normalize)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:577(getlocale)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:26(_getlang)
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:469(_parse_localename)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        4    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : largest_Spike
+Operation Result: 1.1538461538461537
+         18 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 E:\Python\threadingExercise.py:60(largest_Spike)
+       15    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : deviation
+Operation Result: 5.2230109850545015
+         536 function calls in 0.001 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       43    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        3    0.000    0.000    0.001    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       48    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+       19    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       51    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+       20    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       22    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+       42    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:687(<genexpr>)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:675(_ss)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:804(pstdev)
+       43    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+       25    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       48    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:744(pvariance)
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:690(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:433(__pow__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:584(_richcmp)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+        1    0.000    0.000    0.001    0.001 E:\Python\threadingExercise.py:67(deviation)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:391(_sub)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:606(__lt__)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Without Threading >> Ending at : 2022-08-31 09:05:43.424041
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Threading >> Starting at : 2022-08-31 09:05:43.424041
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creating Thread No.1 >>
+ Functions:
+ave_Temperature
+avg_LapseCreating Thread No.2 >>
+ Functions:
+largets_Spike
+deviationStarting <Thread(Thread-21, initial)>The Method Called is : avg_Temperature
+Operation Result: 17.6875
+         144 function calls in 0.001 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.001    0.001 {built-in method _abc._abc_instancecheck}
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+       16    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        1    0.000    0.000    0.001    0.001 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+        6    0.000    0.000    0.001    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+       11    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+       16    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+       11    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+        1    0.000    0.000    0.001    0.001 E:\Python\threadingExercise.py:50(avg_Temperature)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : largest_Spike
+Operation Result: 1.1538461538461537
+         18 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 E:\Python\threadingExercise.py:60(largest_Spike)
+       15    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Waiting for <Thread(Thread-21, started 17840)> to finishThe Method Called is : deviation
+Operation Result: 5.2230109850545015
+         536 function calls in 0.001 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       43    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       19    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       51    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+       48    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       42    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       22    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+       20    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:687(<genexpr>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:675(_ss)
+       25    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       43    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+       48    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:744(pvariance)
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        1    0.000    0.000    0.001    0.001 C:\Users\Momin-PC\anaconda3\lib\statistics.py:804(pstdev)
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.001    0.001 E:\Python\threadingExercise.py:67(deviation)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:433(__pow__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:584(_richcmp)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:690(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:391(_sub)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:606(__lt__)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+
+
+   ïz¡Þ  iÎ Þ  °iÎ Þ  €ïz¡Þ  g+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Lapse
+Operation Result: 525.0
+         50 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:309(_strptime)
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:386(normalize)
+        1    0.000    0.000    0.000    0.000 E:\Python\threadingExercise.py:53(avg_Lapse)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:565(_strptime_datetime)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:577(getlocale)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method strptime}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:26(_getlang)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:469(_parse_localename)
+        4    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Waiting for <Thread(Thread-22, stopped 11328)> to finish-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Threading >> Ending at : 2022-08-31 09:05:43.437007
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Summary : 
+Time Taken By Non-Threading Process :86399
+Time Taken By Threading Process :987034-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Without Threading >> Starting at : 2022-08-31 09:21:14.633071
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Temperature
+Operation Result: 17.6875
+         144 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       16    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       11    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       16    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:74(avg_Temperature)
+       11    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Lapse
+Operation Result: 525.0
+         50 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:309(_strptime)
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:77(avg_Lapse)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:386(normalize)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:565(_strptime_datetime)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:26(_getlang)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:577(getlocale)
+        2    0.000    0.000    0.000    0.000 {built-in method strptime}
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:469(_parse_localename)
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        6    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        2    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : largest_Spike
+Operation Result: 1.1538461538461537
+         18 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:84(largest_Spike)
+       15    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : deviation
+Operation Result: 5.2230109850545015
+         536 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       43    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       19    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       48    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+       51    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+       42    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:606(__lt__)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       20    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+       22    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:675(_ss)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:687(<genexpr>)
+       25    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       48    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       43    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:804(pstdev)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:744(pvariance)
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:433(__pow__)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:584(_richcmp)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:690(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:91(deviation)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:391(_sub)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Without Threading >> Ending at : 2022-08-31 09:21:14.636063
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Threading >> Starting at : 2022-08-31 09:21:14.636063
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creating Thread No.1 >>
+ Functions:
+ave_Temperature
+avg_LapseCreating Thread No.2 >>
+ Functions:
+largets_Spike
+deviationStarting <Thread(Thread-7, initial)>The Method Called is : avg_Temperature
+Operation Result: 17.6875
+         144 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       16    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+       11    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+       16    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+       11    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:74(avg_Temperature)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+       11    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : largest_Spike
+Operation Result: 1.1538461538461537
+         18 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:84(largest_Spike)
+       15    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : deviation
+Operation Result: 5.2230109850545015
+ @'¢r¤  °u{n¤                              536 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       43    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:62(__new__)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:123(_sum)
+       19    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:383(_add)
+       51    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:219(_exact_ratio)
+       48    0.000    0.000    0.000    0.000 {method 'as_integer_ratio' of 'float' objects}
+       42    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+       20    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:356(forward)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:744(pvariance)
+       22    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:177(<genexpr>)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:675(_ss)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:687(<genexpr>)
+       25    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       43    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC2C99BC60}
+       48    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:260(denominator)
+       42    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:256(numerator)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:804(pstdev)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:295(mean)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:584(_richcmp)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:405(_div)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:251(_convert)
+        3    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:368(reverse)
+        5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        5    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\abc.py:117(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:433(__pow__)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\numbers.py:283(__float__)
+       17    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:690(<genexpr>)
+        6    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\statistics.py:188(_coerce)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:606(__lt__)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\fractions.py:391(_sub)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:91(deviation)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.lt}
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Method Called is : avg_Lapse
+Operation Result: 525.0
+         50 function calls in 0.000 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:309(_strptime)
+        2    0.000    0.000    0.000    0.000 {built-in method _locale.setlocale}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:386(normalize)
+        1    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\AppData\Local\Temp\ipykernel_17508\3470510269.py:77(avg_Lapse)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:565(_strptime_datetime)
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:577(getlocale)
+        2    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\_strptime.py:26(_getlang)
+        2    0.000    0.000    0.000    0.000 {built-in method strptime}
+        2    0.000    0.000    0.000    0.000 C:\Users\Momin-PC\anaconda3\lib\locale.py:469(_parse_localename)
+        2    0.000    0.000    0.000    0.000 {method 'groupdict' of 're.Match' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        6    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        4    0.000    0.000    0.000    0.000 {method 'toordinal' of 'datetime.date' objects}
+        2    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 {method 'weekday' of 'datetime.date' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+Execution of the method is completed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Waiting for <Thread(Thread-8, stopped 12964)> to finish-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Threading >> Ending at : 2022-08-31 09:21:14.645041
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Summary : 
+Time Taken By Non-Threading Process :86399
+Time Taken By Threading Process :991022  r:   rE   r   r   r   r   Ú<module>   s   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Without Threading >> Starting at : 
